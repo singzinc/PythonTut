@@ -29,27 +29,40 @@ print(add_numbers(1, 2, 3))
 
 
 
-# =========================
+# ========================= Multi-line statement =================
+# ====== use \ =======
 
 a = 1 + 2 + 3 + \
     4 + 5 + 6 + \
     7 + 8 + 9
 
 print("------- start -------")
-print(a)
-print("-------- END --------")
+print("result 1 : " , a)
 
 
-
+# ======== use () ======
 a = (1 + 2 + 3 +
     4 + 5 + 6 +
     7 + 8 + 9 +10)
 
-print("------- start -------")
-print(a)
+print("result 2 : " , a)
 print("-------- END --------")
 
 
+
+
+# ======== use [] =======
+
+colors = ['red',
+          'blue',
+          'green']
+
+print(colors)
+
+a = 1; b = 2; c = 3
+print(a)
+print(b)
+print(c)
 
 # ============================ use type to get the var type ================
 
