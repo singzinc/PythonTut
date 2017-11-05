@@ -1,0 +1,1 @@
+this is basic tut for Python 3
