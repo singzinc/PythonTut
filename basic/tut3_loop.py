@@ -1,11 +1,10 @@
-x = 'test'
-print ("We're on time %d" , x)
+
 
 # =================== looping example =====================
 
 for x in range(0, 5):
     print ("We're on time %d" % (x))
-    print ("test : " , x)
+    #print ("test : " , x)
 
 # ========================
 
@@ -20,4 +19,17 @@ for list in list_of_lists:
 for x in range(3):
     print (x)
 else:
-    print ('Final x = %d' % (x))
+    print('Final x = %s' % (x))
+
+
+
+
+# ====================== String concat example ===================
+x = 'apples'
+y = 'lemons'
+z = 'In the basket are %s and %s' % (x,y)
+
+print('================')
+
+print(z)
+
