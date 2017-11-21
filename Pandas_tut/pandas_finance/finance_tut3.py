@@ -47,3 +47,4 @@ print(closeVal)
 print(volumeVal)
 print(highVal)
 print(lowVal)
+
